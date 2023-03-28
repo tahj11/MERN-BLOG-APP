@@ -1,7 +1,7 @@
 import React from "react";
 import TechCard from "../TechCard/TechCard";
 import "./techHeader.css";
-import { TechCardData } from "../../data";
+import { GadgetData, TechCardData } from "../../data";
 
 function TechHeader() {
   return (
@@ -16,16 +16,6 @@ function TechHeader() {
           <h1>The FBI Has Been Buying</h1>
           <h1>Bulk Internet Data from This</h1>
           <h1>Florida Company</h1>
-          {/* <div className="tech-header-info">
-            <span>
-              A data broker that previously sold data-pilfering tools to the
-              U.S. military has
-            </span>
-            <span>
-              received tens of thousands of dollars from the FBI for similar
-              services.
-            </span>
-          </div> */}
         </div>
       </div>
       <div className="right">
