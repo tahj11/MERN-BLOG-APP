@@ -31,6 +31,14 @@ exports.signup = (req, res, next) => {
     errors.push({ password_confirmation: "required" });
   }
 
+  if (password != password_confirmation) {
+    errors.push({ password: "mismatch" });
+  }
+
+  if (errors.length > 0) {
+    return res.status(422).json({ errors: errors });
+  }
+
   User.findOne({ email: email })
     .then((user) => {
       if (user) {
@@ -72,7 +80,25 @@ exports.signup = (req, res, next) => {
 };
 
 exports.signin = (req, res) => {
-  let { email, password } = req.body;
+  const { email, password } = req.body;
+
+  const errors = [];
+  if (!email) {
+    errors.push({ email: "required" });
+  }
+
+  if (!emailRegexp.test(email)) {
+    errors.push({ email: "invalid email" });
+  }
+
+  if (!password) {
+    errors.push({ password: "required" });
+  }
+
+  if (errors.length > 0) {
+    return res.status(422).json({ errors: errors });
+  }
+
   User.findOne({ email: email })
     .then((user) => {
       if (!user) {
