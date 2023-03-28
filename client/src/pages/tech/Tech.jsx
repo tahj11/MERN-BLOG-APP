@@ -3,6 +3,7 @@ import FeaturedPost from "../../components/featuredPosts/FeaturedPost";
 import "./tech.css";
 import MainFeaturedPost from "../../components/MainPosts/MainFeaturedPost";
 import { TechMain, TechData } from "../../data";
+import TechHeader from "../../components/TechHeader/TechHeader";
 
 function Tech() {
   return (
@@ -28,6 +29,7 @@ function Tech() {
         <hr className="right_line" />
       </div>
       <span>Tech news, analysis, culture, business, security, and more</span>
+      <TechHeader />
     </div>
   );
 }
