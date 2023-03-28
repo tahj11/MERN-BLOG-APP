@@ -90,3 +90,32 @@ export const TechMain = [
     author: "Nakita Brown",
   },
 ];
+
+export const TechCardData = [
+  {
+    title: "News",
+    heading: "Glory Days of Working From Home Are Long Behind Us",
+    para: "The Bureau of Labor Statistics reported that the percentage of workplaces with little to no telework rose to 72.5% from 2021 to 2022",
+    author: "Tahjay Johnson",
+    image:
+      "https://www.cnet.com/a/img/resize/8ae024ec711b975fb420950e4017a30d5470d55b/hub/2022/11/29/b3e8a924-f6f8-4c32-9afc-b2c13133bf21/gettyimages-1188919791-streaming-logos.jpg?auto=webp&fit=crop&height=675&width=1200",
+  },
+  {
+    title: "News",
+    heading:
+      "Silicon Valley Bank Rises From Dead With First Citizens Acquisition",
+    para: "Silicon Valley Bank, once triumphantly dubbed the “financial partner of the innovation economy,” before its recent historic collapse, is being acquired by First Citizens.",
+    author: "Mark Gregory",
+    image:
+      "https://i.kinja-img.com/gawker-media/image/upload/c_fit,f_auto,g_center,q_60,w_965/1e35290bd07a5ef45b8b67cabe6b23ca.jpg",
+  },
+  {
+    title: "Tech",
+    heading:
+      "Elon Musk's Neuralink Seeks Surgical Partner for Human Trials, Report Says",
+    para: "Despite approval setbacks, Elon Musk continues to charge forward on his grand plans for human brain implants.",
+    author: "Lauren Lefer",
+    image:
+      "https://i.kinja-img.com/gawker-media/image/upload/c_fit,f_auto,g_center,q_60,w_965/712211f999a47eebc3b945b505394ceb.jpg",
+  },
+];

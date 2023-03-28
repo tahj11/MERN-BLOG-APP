@@ -152,16 +152,12 @@ function Registration() {
                 required
                 fullWidth
                 name="confirm-password"
-                value={user.password_confirm}
+                // value={user.password_confirm}
                 onChange={onChange}
                 label="Confirm Password"
                 type="confirm-password"
                 id="confirm-password"
-                // autoComplete="confirm-password"
-              />
-              <FormControlLabel
-                control={<Checkbox value="remember" color="primary" />}
-                label="Remember me"
+                //autoComplete="confirm-password"
               />
               <Button
                 type="submit"
@@ -169,7 +165,7 @@ function Registration() {
                 variant="contained"
                 sx={{ mt: 3, mb: 2 }}
               >
-                Sign In
+                Sign Up
               </Button>
               <Grid container>
                 <Grid item xs>

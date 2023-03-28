@@ -1,5 +1,7 @@
 import React from "react";
+import TechCard from "../TechCard/TechCard";
 import "./techHeader.css";
+import { TechCardData } from "../../data";
 
 function TechHeader() {
   return (
@@ -26,7 +28,13 @@ function TechHeader() {
           </div> */}
         </div>
       </div>
-      <div className="right"></div>
+      <div className="right">
+        <div className="tech-card-layout">
+          {TechCardData.map((post) => (
+            <TechCard key={post.title} posts={post} />
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
