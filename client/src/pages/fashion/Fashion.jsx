@@ -1,4 +1,5 @@
 import React from "react";
+import FashionHeader from "../../components/FashionHeader/FashionHeader";
 import "./fashion.css";
 
 function Fashion() {
@@ -10,6 +11,7 @@ function Fashion() {
         <hr className="right_line" />
       </div>
       <span>One of the hottest topics in 2022. Learn more about</span>
+      <FashionHeader />
     </div>
   );
 }

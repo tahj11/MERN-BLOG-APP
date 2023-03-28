@@ -174,3 +174,31 @@ export const TechCardData = [
       "https://i.kinja-img.com/gawker-media/image/upload/c_fit,f_auto,g_center,q_60,w_965/712211f999a47eebc3b945b505394ceb.jpg",
   },
 ];
+
+export const FashionCardData = [
+  {
+    title: "Online Shopping",
+    heading: "16 Black Maxi Dresses You’ll Live In This Season",
+    para: "The black maxi dress is a frock that knows no boundaries. Walking the dog?",
+    author: "Emily Ruane",
+    image:
+      "https://s1.r29static.com/bin/entry/7fc/0,0,2000,2400/545x654,85/2191473/image.webp",
+  },
+  {
+    title: "Fashion",
+    heading:
+      "Olivia Munn Slammed the Go Fug Yourself Bloggers for Criticizing Her Red Carpet Looks",
+    para: "Earlier today, Olivia Munn shared an essay she wrote about celebritydom, being in the public eye.",
+    author: "Mekita Rivas",
+    image:
+      "https://s3.r29static.com/bin/entry/d6c/340x408,85/2170044/image.webp",
+  },
+  {
+    title: "Best New Fashion Designers",
+    heading: "Do We Really Want To Dress Like Street Style Stars Anymore?",
+    para: "Stylish people, going about their day, captured by a photographer who appreciated their stand-out look. It was unique and inspirational.",
+    author: "Jessica Bumpus",
+    image:
+      "https://s2.r29static.com/bin/entry/2fb/720x480,85/2007673/image.webp",
+  },
+];
